@@ -15,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - IgnoreStoneDetection
   - 
   - 
   - 
@@ -42,4 +42,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: IgnoreStoneDetection
+    uniqueID: 3529350541
     locked: 0
