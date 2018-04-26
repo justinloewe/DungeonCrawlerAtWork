@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TooltipText
   - Message
+  - Door
   layers:
   - Default
   - TransparentFX
