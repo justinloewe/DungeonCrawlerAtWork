@@ -34,7 +34,8 @@ GameObject:
   - component: {fileID: 5400000}
   - component: {fileID: 114578641743981570}
   - component: {fileID: 11400002}
-  - component: {fileID: 11400004}
+  - component: {fileID: 114237203514494996}
+  - component: {fileID: 208019400876106214}
   m_Layer: 0
   m_Name: gate_01
   m_TagString: Door
@@ -48,14 +49,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 2, y: 0, z: 4}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.6387, y: -0.55337334, z: 7.9961433}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 1
@@ -276,20 +277,6 @@ MonoBehaviour:
   lockedDoorMonologueClip: {fileID: 8300000, guid: 53939b80c6650224392c5db1fca9f20b,
     type: 3}
   isLocked: 0
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eb220121366fd4478fc73a65b84e538, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  standardCursor: {fileID: 2800000, guid: 821e01e566eabef4d8ceec4e4becc681, type: 3}
-  clickableCursor: {fileID: 2800000, guid: ea31291f1f12dcf43addd464a19dea17, type: 3}
-  tooltipText: Eisentor
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -316,6 +303,21 @@ MonoBehaviour:
     type: 3}
   isLocked: 1
   keyInventoryItem: {fileID: 11400000, guid: 5097b0e21e9bf39498706a129200766a, type: 2}
+--- !u!114 &114237203514494996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2df4ff8f2f4bdb449635a3270e14b80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockedDoorMonologueClip: {fileID: 8300000, guid: 53939b80c6650224392c5db1fca9f20b,
+    type: 3}
+  isLocked: 1
+  keyInventoryItem: {fileID: 11400000, guid: 5097b0e21e9bf39498706a129200766a, type: 2}
 --- !u!114 &114578641743981570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -330,3 +332,18 @@ MonoBehaviour:
   standardCursor: {fileID: 2800000, guid: 821e01e566eabef4d8ceec4e4becc681, type: 3}
   clickableCursor: {fileID: 2800000, guid: ea31291f1f12dcf43addd464a19dea17, type: 3}
   tooltipText: Eisentor
+--- !u!208 &208019400876106214
+NavMeshObstacle:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.05, y: 1, z: 1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.05, y: 1, z: 1}
+  m_TimeToStationary: 0.5
