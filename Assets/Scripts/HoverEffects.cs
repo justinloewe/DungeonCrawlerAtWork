@@ -14,7 +14,7 @@ public class HoverEffects : MonoBehaviour {
 	void Start()
 	{
 		//msgBox = GameObject.FindGameObjectWithTag("Tooltip").GetComponent<GUIText>();	//GUIElements
-		msgBox = GameObject.FindGameObjectWithTag("Tooltip").GetComponent<Text>();	//uGUI
+		msgBox = GameObject.FindGameObjectWithTag("TooltipText").GetComponent<Text>();	//uGUI
 		msgBox.transform.position = Vector3.zero;
 	}
 
