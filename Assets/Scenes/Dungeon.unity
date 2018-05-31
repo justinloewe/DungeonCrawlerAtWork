@@ -18616,6 +18616,7 @@ GameObject:
   - component: {fileID: 499823557}
   - component: {fileID: 499823558}
   - component: {fileID: 499823559}
+  - component: {fileID: 499823560}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -18750,6 +18751,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 917ac59c142d56843ba599bb73423bf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &499823560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 499823554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c2e7f9eaa4d6f4ab76b1a943c592c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &500436533
@@ -19763,7 +19775,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 523138314}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 402426e91ae0250408d9c2f45f7b0ab7, type: 3}
+  m_Script: {fileID: 11500000, guid: 95461cc5e019a904b961e9843f45942b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
@@ -28511,7 +28523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.08088237, g: 0.08088237, b: 0.08088237, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
